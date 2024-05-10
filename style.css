@@ -1,0 +1,55 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.text-center{
+    text-align: center;
+}
+.container{
+    background: black;
+    border-radius: 15px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+.button{
+    background-color:rgb(93, 92, 92);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 60px;
+}
+.row{
+    margin: 8px 0;
+}
+.row .input{
+    margin: 0 ;
+    padding: 10px 38px;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: larger;
+    height: 40px;
+    width: 200px;
+}
+#butt{
+    background-color: red;
+}
+#equal{
+    background-color: aqua;
+}
+#opr{
+    background-color: aliceblue;
+    color: black;
+}
+#pre{
+    background-color: crimson;
+}
